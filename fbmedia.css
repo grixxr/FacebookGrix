@@ -1,0 +1,197 @@
+@media only screen and (max-width: 450px) {
+    #rightSide *{
+        display: none;
+    }
+    #fbLogo{
+        display: none;
+    }
+    #searchBar{
+        display: none;
+    }
+    #navMid{
+        display: none;
+    }
+    #menu, #bell{
+        display: none;
+    }
+    #searchCP{
+        margin-top: 20px;
+        margin-right: 10px;
+        display:block
+    }
+    #mess{
+        margin-right: 10px;
+    }
+    #pfp{
+        display: none;
+    }
+    
+    #facebook{
+        display: block;
+    }
+
+    #Reel div:nth-child(1),
+    #Reel div:nth-child(2),
+    #Reel div:nth-child(3){
+        padding-left: 50px;
+        padding-right: 70px;
+        
+    }
+
+    #Reel div i{
+        display: none;
+    }
+
+    #Woym{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #Woym2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #rightSide *{
+        display: none;
+    }
+    
+    #newsFeed{
+        width: 90vw;
+    }
+    
+    #Reel div:nth-child(1),
+    #Reel div:nth-child(2),
+    #Reel div:nth-child(3){
+        flex-grow: 1;
+        height: 22vh;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #searchBar{
+        display: none;
+    }
+    #navLeft div:nth-child(2) i{
+        display: block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #Woym2{
+        padding-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #leftSide *{
+        display: none;
+    }
+    #leftSide{
+        flex-grow: 0;
+        position: fixed;
+    }
+    #rightSide{
+        flex-grow: .1;
+    } 
+    
+    #searchBar{
+        display: none;
+    }
+    #navLeft div:nth-child(2) i{
+        display: block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #navLeft{
+        flex-grow: .8;
+    }
+    
+    #content div:nth-child(1){
+        flex-grow: 4;
+    }
+    #content div:nth-child(2){
+        flex-grow: 5;
+    }
+    #content div:nth-child(3){
+        flex-grow: 2;
+    }
+
+    #Woym2{
+        padding-bottom: 30px;
+    }
+
+    #Reel div:nth-child(1),
+    #Reel div:nth-child(2),
+    #Reel div:nth-child(3){
+        flex-grow: 1;
+        height: 30vh;
+        width: 30vw;
+        margin-bottom: 15px;
+    }
+    #Reel div i{
+        margin-top: 13vh;
+        margin-right: -15px;
+        margin-left: 10px;
+    }
+
+    #Woym div:nth-child(1){
+        flex-grow: 1;
+        margin-left: 15px;
+        padding-top: 2px;
+    }
+    #Woym div:nth-child(2){
+        flex-grow: 100;
+        margin-top: 10px;
+    }
+
+    #Woym2 div:nth-child(1),
+    #Woym2 div:nth-child(2),
+    #Woym2 div:nth-child(3){
+        flex-grow: .1;
+        margin-top: 20px;
+        margin-left: 30px; 
+    }
+
+    #Woym2 div:nth-child(1) p,
+    #Woym2 div:nth-child(2) p,
+    #Woym2 div:nth-child(3) p{
+        margin-top: 8px;
+        font-size: 15px;
+    }
+
+    #Woym2 div:nth-child(1) i,
+    #Woym2 div:nth-child(2) i,
+    #Woym2 div:nth-child(3) i{
+        font-size: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    #leftSide{
+        flex-grow: 4;
+    }
+
+    #Woym div:nth-child(2){
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+    #Woym div:nth-child(2) p{
+        margin-top: -5px;
+    }
+    
+    #Woym2{
+        height: 8vh;
+    }
+    #Woym2 div:nth-child(1),
+    #Woym2 div:nth-child(2),
+    #Woym2 div:nth-child(3){
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+    }
+}

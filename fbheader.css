@@ -1,0 +1,80 @@
+#header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #242526;
+    height: 60px;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+#header i{
+    color: #B8BBBF;
+    font-size: 20px;
+}
+
+#navLeft{
+    display: flex;
+    flex-direction: row; 
+    flex-grow: 1.1;
+}
+#navMid{
+    flex-grow: 3;
+    flex-direction: row;
+}
+#navRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    flex-direction: row;
+    padding-top: 20px;
+    flex-grow: .5;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#fbLogo{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#searchBar{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#navLeft div:nth-child(3) i{
+    display: none;
+}
+
+#searchCP{
+    display: none;
+}
+#menu, #mess, #bell{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 50px;
+}
+#pfp{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#facebook{
+    width: 150px;
+    margin-left: 4vw;
+    margin-top: 4vw;
+    display: none;
+}
+
+

@@ -1,0 +1,53 @@
+li:hover, #menu:hover, #mess:hover, #bell:hover, 
+#leftSide div:nth-child(1):hover,
+#leftSide div:nth-child(2):hover,
+#leftSide div:nth-child(3):hover,
+#leftSide div:nth-child(4):hover,
+#leftSide div:nth-child(5):hover,
+#leftSide div:nth-child(6):hover,
+#leftSide div:nth-child(7):hover,
+#leftSide div:nth-child(10):hover,
+#leftSide div:nth-child(11):hover,
+#leftSide div:nth-child(12):hover,
+#leftSide div:nth-child(13):hover,
+#leftSide div:nth-child(14):hover,
+#leftSide div:nth-child(15):hover,
+#storyReel div:nth-child(1):hover,
+#storyReel div:nth-child(2):hover,
+#Reel div:nth-child(1):hover,
+#Reel div:nth-child(2):hover,
+#Reel div:nth-child(3):hover,
+#Woym div:nth-child(2):hover,
+#rightSide div:nth-child(2):hover,
+#rightSide div:nth-child(5):hover,
+#rightSide div:nth-child(6):hover,
+#rightSide div:nth-child(7):hover,
+#rightSide div:nth-child(8):hover,
+#rightSide div:nth-child(9):hover,
+#rightSide div:nth-child(10):hover,
+#rightSide div:nth-child(11):hover,
+#rightSide div:nth-child(12):hover,
+#rightSide div:nth-child(13):hover,
+#rightSide div:nth-child(14):hover,
+#rightSide div:nth-child(15):hover{
+    background-color: #3A3B3C;
+}
+
+#pfp:hover, #Woym img:hover{
+    opacity: 50%;
+}
+
+#Reel div i:hover,
+#rightSide div:nth-child(4) i:hover{
+    color: #3A3B3C;
+}
+
+#Woym2 div:nth-child(1) i:hover{
+    color: #F23E5C;
+}
+#Woym2 div:nth-child(2) i:hover{
+    color: #58C472;
+}
+#Woym2 div:nth-child(3) i:hover{
+    color: #F8C03E;
+}
